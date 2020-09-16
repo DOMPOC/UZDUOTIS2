@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang = "lt">
+<head>
+<style>
+	u{
+		text-decoration: underline;
+	}
+
+</style>
+		<title>FORMOS</title>
+		<meta charset="utf-8">
+		<!--Formos kurimas-->
+</head>
+<body>
+	<h3>Duomenų informacija</h3>
+	<form>
+		<table>
+			<!--EL PASTAS-->
+			<tr>
+				<td align="left">El. pašto adresas:*</td>
+				<td align="left"><input type="email" size="30" required></td>
+			<!--Slaptazodis-->
+			<tr>
+				<td align="left">Slaptažodis:*</td>
+				<td align="left"><input type="text" size="30" required> </td>
+			</tr>
+			<!--patvirtinimas-->
+			<tr>
+				<td align="left">Patvirtinti slaptažodį:*</td>
+				<td align="left"><input type="text" size="30" required></td>
+			</tr>
+			<!--checkboxas-->		
+			<tr>
+				<td align="right"><input type="checkbox"><br></td>
+				<td align="left">Sutinku su <u>taisyklėmis</u></td>
+			</tr>
+		</table>
+	</form>	
+</body>
+	<body>
+		<form>
+			<table>
+				<h3>Pasitikrinkite sąskaitos adresą</h3>
+		<!-- Apie lyti-->
+			<tr>
+				<td align="left">Lytis*</td>
+				<td align="left">
+				<select name="Moteris" id="Moteris" style="width: 275px;">
+						<option>Moteris</option>
+						<option>Vyras</option>		
+					</select>				
+				</td>
+				<!--Vardas-->
+			</tr>
+			<td align="left">Vardas*</td>
+			<td align="left"><input type="text" size="30" required></td>
+			</tr>
+			<!--Pavarde-->
+				<tr>
+					<td align="left">Pavarde*</td>
+					<td align="left"><input type="text" size="30" required></td>
+				</tr>
+				<!--Adresas-->
+					<tr>
+						<td align="left">Gatvė,namo(buto)nr.:*</td>
+						<td align="left"><input type="text" size="15" required=""><input type="text" size="5" required></td>
+					</tr>
+					<!-- pastas -->
+						<tr>
+							<td align="left">Pašto kodas*</td>
+							<td align="left"><input type="text" size="15" required><a href="https://www.post.lt/pasto-kodu-ir-adresu-paieska">Pašto kodo paieska</a></td>
+						</tr>
+						<!-- miestas -->
+							<tr>
+								<td align="left">Miestas*</td>
+								<td align="left"><input type="text" size="15" required></td>
+							</tr>
+							<!-- salis -->
+								<tr>
+									<td align="left">Šalis*</td>
+									<td align="left">
+										<select name="Lietuva" id="Lietuva" style="width: 275px;">
+										<option>Lietuva</option>
+										<option>Latvija</option>
+										<option>Estija</option>
+										</select>
+									</td>
+								</tr>
+								<!-- telefonas -->
+									<tr>
+										<td align="left">Telefonas:*</td>
+										<td align="left"><input type="text" size="30" required></td>
+									</tr>
+									<!-- papildomas -->
+										<tr>
+											<td align="left">Papildoma informacija:<br>(Pavyzdžiui vartelių/durų<br> kodas)</td>
+											<td align="left"><input type="text" size="30"><br>Prašome užpildyti visus pažymėtus laukus*</td><br>
+										</tr>										
+			</table>
+		</form>
+	</body>
+<body>
+	<form>
+		<table>
+			<!-- mygtukai -->
+			<fieldset>
+				<button type="submit">Saugoti</button>
+				<button type="select"><a href="Duomenų"</a></button>
+			</fieldset>
+
+		</table>
+	</form>
+</body>
